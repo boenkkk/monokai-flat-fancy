@@ -1,0 +1,32 @@
+{
+  "name": "monokai-flat-fancy",
+  "displayName": "Monokai Flat Fancy",
+  "description": "Theme based on Monokai but more flat and fancy.",
+  "publisher": "boenkkk",
+  "version": "1.1.0",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "icon": "icons/monokai-flat-fancy_icon.png",
+  "author": {
+    "name": "Boenkkk",
+    "email": "sebuah.email@gmail.com",
+    "url": "https://blog.boenkkk.dev"
+  },
+  "repository": {
+    "url": "https://github.com/boenkkk/monokai-flat-fancy",
+    "type": "git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monokai Flat Fancy",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Monokai Flat Fancy-color-theme.json"
+      }
+    ]
+  }
+}
